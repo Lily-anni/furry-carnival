@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>商品详情页</title>
+    <link rel="stylesheet" href="../css/category.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <script src="../js/common.js"></script>
+    <!-- 使用zepto封装好的tap事件来实现左侧单机操作 -->
+    <!-- <script src="../zepto-master/zepto-master/src/zepto.mini.js"></script>
+    <script src="../zepto-master/zepto-master/src/selector.js"></script> -->
+    <!-- 引入fastclick文件 -->
+    <script src="../fastclick-master/lib/fastclick.js"></script>
+    <script src="../js/category.js"></script>
+</head>
+
+<body>
+    <div class="ct_layout">
+        <div class="ct_header">
+            <a href="javascript:;" class="ct_back"></a>
+            <form action="" class="ct_search">
+                <input type="text" placeholder="请输入商品名称">
+            </form>
+            <a href="javascript:;" class="ct_menu"></a>
+        </div>
+        <div class="ct_content">
+            <div class="ct_cLeft">
+                <ul>
+                    <li><a href="javascript:;">热门推荐</a></li>
+                    <li class="active"><a href="javascript:;">潮流女装</a></li>
+                    <li><a href="javascript:;">品牌男装</a></li>
+                    <li><a href="javascript:;">内衣配饰</a></li>
+                    <li><a href="javascript:;">家用电器</a></li>
+                    <li><a href="javascript:;">电脑办公</a></li>
+                    <li><a href="javascript:;">手机数码</a></li>
+                    <li><a href="javascript:;">母婴频道</a></li>
+                    <li><a href="javascript:;">图书</a></li>
+                    <li><a href="javascript:;">家具建材</a></li>
+                    <li><a href="javascript:;">玩具</a></li>
+                    <li><a href="javascript:;">游戏</a></li>
+                    <li><a href="javascript:;">内衣配饰</a></li>
+                    <li><a href="javascript:;">家用电器</a></li>
+                    <li><a href="javascript:;">电脑办公</a></li>
+                    <li><a href="javascript:;">手机数码</a></li>
+                    <li><a href="javascript:;">母婴频道</a></li>
+                </ul>
+            </div>
+            <div class="ct_cRight">
+                <a href="javascript:;" class="ct_Img">
+                    <img src="../images/xq.jpg" alt="">
+                </a>
+                <h3>热门分类</h3>
+                <div class="ct_hot" style="position: relative;">
+                    <ul style="overflow:hidden;">
+                        <li>
+                            <a href="javascript:;">
+                                <img src="../uploads/xq1.jpg" alt="">
+                                <p>套装</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <img src="../uploads/xq1.jpg" alt="">
+                                <p>套装</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <img src="../uploads/xq1.jpg" alt="">
+                                <p>套装</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <img src="../uploads/xq1.jpg" alt="">
+                                <p>套装</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <img src="../uploads/xq1.jpg" alt="">
+                                <p>套装</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <img src="../uploads/xq1.jpg" alt="">
+                                <p>套装</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <img src="../uploads/xq1.jpg" alt="">
+                                <p>套装</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <img src="../uploads/xq1.jpg" alt="">
+                                <p>套装</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <img src="../uploads/xq1.jpg" alt="">
+                                <p>套装</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <img src="../uploads/xq1.jpg" alt="">
+                                <p>套装</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <img src="../uploads/xq1.jpg" alt="">
+                                <p>套装</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <img src="../uploads/xq1.jpg" alt="">
+                                <p>套装</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../iscroll-master/build/iscroll.js"></script>
+    <script type="text/javascript">
+        var myScroll = new IScroll('.ct_hot', {
+            mouseWheel: true,
+            scrollbars: true
+        });
+    </script>
+</body>
+
+</html>
